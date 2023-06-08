@@ -15,3 +15,7 @@ async def camera(request: Request):
     fd = FaceDetect()
     fd.start_detect()
     return templates.TemplateResponse("smile-detected.html", {"request": request})
+
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    pass
