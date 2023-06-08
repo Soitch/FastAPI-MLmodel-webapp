@@ -7,5 +7,5 @@ Set up:
 1. make a git clone to your directory
 2. install all the rquirements
 3. run: pip install -r requirements.txt
-4. and deploy localle by: uvicorn main:app --reload
+4. deploy locally by: uvicorn main:app --reload
 5. Open your web browser and visit http://localhost:8000 
